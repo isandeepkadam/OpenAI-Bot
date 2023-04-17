@@ -1,0 +1,21 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Open AI Telegram ChatBot",
+  "main": "Bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "OpenAI",
+    "AI",
+    "Telegram"
+  ],
+  "author": "Sandeep Kadam",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "openai": "^3.2.1"
+  }
+}
