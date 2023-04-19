@@ -25,9 +25,10 @@ const openai = new OpenAIApi(configuration)
 
 async function runCompletion(message){
     const completion = await openai.createCompletion({
-        model: 'text-davinci-003',
+        model: 'ada',
         prompt: message, 
-        max_tokens: 200
+        max_tokens: 200,
+        temperature: 0.5,
     })
 
     return completion.data.choices[0].text;
