@@ -19,7 +19,7 @@ bot.onText(/\/start/, (msg) => {
 
 bot.on("message", async (msg) => {
     const chatId = msg.chat.id;
-    n
+    
     const reply = await openai.createCompletion({
         max_tokens: 100,
         model: "ada",
