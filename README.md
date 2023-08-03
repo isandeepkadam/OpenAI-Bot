@@ -1,1 +1,1 @@
-#Open AI telegram BOT
+**Open** AI telegram BOT
