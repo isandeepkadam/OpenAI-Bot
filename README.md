@@ -1,1 +1,1 @@
-**Open** AI telegram BOT
+**Open** AI telegram and Whatsapp chat BOT
